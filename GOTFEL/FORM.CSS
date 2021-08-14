@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.889) 0%,
+    white 50%,
+    black 50%,
+    rgb(0, 0, 0) 120%
+  );
+}
+h1 {
+  background: linear-gradient(
+    to right,
+    rgb(0, 0, 0) 0%,
+    rgb(0, 0, 0) 50%,
+    rgb(255, 255, 255) 50%,
+    white 100%
+  );
+  color: white;
+  text-align: center;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 50px;
+  top: 30px;
+}
+.messi {
+  text-align: left;
+}
+form {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
